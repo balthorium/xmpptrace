@@ -1,0 +1,2 @@
+Main-Class: xmpptrace.view.XmppTraceFrame
+Class-Path: h2-1.2.147.jar

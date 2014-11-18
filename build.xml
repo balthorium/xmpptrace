@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project name="xmpptrace" default="all">
+
+    <path id="xmpptrace.classpath">
+        <pathelement path="lib/h2-1.3.164.jar"/>
+    </path>
+
+    <target name="doc">
+        <mkdir dir="doc"/>
+        <javadoc sourcepath="src" destdir="doc" packagenames="xmpptrace.">
+            <classpath refid="xmpptrace.classpath"/>
+        </javadoc>
+    </target>
+        
+    <target name="classes">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" includeantruntime="false">
+            <classpath refid="xmpptrace.classpath"/>
+        </javac>
+        <copy file="etc/namespaces.xml" 
+            todir="bin/xmpptrace/model"/>
+    </target>
+
+
+    <target name="jar" depends="classes">
+        <jar destfile="xmpptrace.jar" basedir="bin" manifest="etc/manifest.mf">
+        	<zipgroupfileset dir="lib" includes="h2-1.3.164.jar"/>
+       	</jar>
+    </target>
+
+    <target name="all" depends="classes,jar,doc"/>
+
+    <target name="clean">
+        <delete dir="doc"/>
+        <delete dir="bin"/>
+        <delete file="xmpptrace.jar"/>
+    </target>
+
+</project>

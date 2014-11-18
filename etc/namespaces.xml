@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<registry type="namespaces">
+  <ns>
+    <name>http://jabber.org/protocol/activity</name>
+    <doc>XEP-0108: User Activity</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/address</name>
+    <doc>XEP-0033: Extended Stanza Addressing</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/amp</name>
+    <doc>XEP-0079: Advanced Message Processing</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/amp#errors</name>
+    <doc>XEP-0079: Advanced Message Processing</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/bytestreams</name>
+    <doc>XEP-0065: SOCKS5 Bytestreams</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/caps</name>
+    <doc>XEP-0115: Entity Capabilities</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/chatstates</name>
+    <doc>XEP-0085: Chat State Notifications</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/commands</name>
+    <doc>XEP-0050: Ad-Hoc Commands</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/compress</name>
+    <doc>XEP-0138: Stream Compression</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/disco#info</name>
+    <doc>XEP-0030: Service Discovery</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/disco#items</name>
+    <doc>XEP-0030: Service Discovery</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/feature-neg</name>
+    <doc>XEP-0020: Feature Negotiation</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/geoloc</name>
+    <doc>XEP-0080: User Geolocation</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/http-auth</name>
+    <doc>XEP-0070: Verifying HTTP Requests via XMPP</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/httpbind</name>
+    <doc>XEP-0124: Bidirectional-streams Over Synchronous HTTP</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/ibb</name>
+    <doc>XEP-0047: In-Band Bytestreams</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/mood</name>
+    <doc>XEP-0107: User Mood</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/muc</name>
+    <doc>XEP-0045: Multi-User Chat</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/muc#admin</name>
+    <doc>XEP-0045: Multi-User Chat</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/muc#owner</name>
+    <doc>XEP-0045: Multi-User Chat</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/muc#user</name>
+    <doc>XEP-0045: Multi-User Chat</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/nick</name>
+    <doc>XEP-0172: User Nickname</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/offline</name>
+    <doc>XEP-0013: Flexible Offline Message Retrieval</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/physloc</name>
+    <doc>XEP-0112: User Physical Location</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/pubsub</name>
+    <doc>XEP-0060: Publish-Subscribe</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/pubsub#errors</name>
+    <doc>XEP-0060: Publish-Subscribe</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/pubsub#event</name>
+    <doc>XEP-0060: Publish-Subscribe</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/pubsub#owner</name>
+    <doc>XEP-0060: Publish-Subscribe</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/rc</name>
+    <doc>XEP-0146: Remote Controllling Clients</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/rosterx</name>
+    <doc>XEP-0144: Roster Item Exchange</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/sipub</name>
+    <doc>XEP-0137: Publishing SI Requests</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/soap</name>
+    <doc>XEP-0072: SOAP Over XMPP</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/soap#fault</name>
+    <doc>XEP-0072: SOAP Over XMPP</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/waitinglist</name>
+    <doc>XEP-0130: Waiting Lists</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/xhtml-im</name>
+    <doc>XEP-0071: XHTML-IM</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/xdata-layout</name>
+    <doc>XEP-0141: Data Forms Layout</doc>
+  </ns>
+  <ns>
+    <name>http://jabber.org/protocol/xdata-validate</name>
+    <doc>XEP-0122: Data Forms Validation</doc>
+  </ns>
+  <ns>
+    <name>jabber:client</name>
+    <doc>RFC 3921: XMPP IM</doc>
+  </ns>
+  <ns>
+    <name>jabber:component:accept</name>
+    <doc>XEP-0114: Existing Component Protocol</doc>
+  </ns>
+  <ns>
+    <name>jabber:component:connect</name>
+    <doc>XEP-0114: Existing Component Protocol</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:auth</name>
+    <doc>XEP-0078: Non-SASL Authentication</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:gateway</name>
+    <doc>XEP-0100: Gateway Interaction</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:last</name>
+    <doc>XEP-0012: Last Activity</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:oob</name>
+    <doc>XEP-0066: Out of Band Data</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:privacy</name>
+    <doc>RFC 3921: XMPP IM</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:private</name>
+    <doc>XEP-0049: Private XML Storage</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:register</name>
+    <doc>XEP-0077: In-Band Registration</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:roster</name>
+    <doc>RFC 3921: XMPP IM</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:rpc</name>
+    <doc>XEP-0009: Jabber-RPC</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:search</name>
+    <doc>XEP-0055: Jabber Search</doc>
+  </ns>
+  <ns>
+    <name>jabber:iq:version</name>
+    <doc>XEP-0092: Software Version</doc>
+  </ns>
+  <ns>
+    <name>jabber:server</name>
+    <doc>RFC 3921: XMPP IM</doc>
+  </ns>
+  <ns>
+    <name>jabber:x:conference</name>
+    <doc>XEP-0249: Direct MUC Invitations</doc>
+  </ns>
+  <ns>
+    <name>jabber:x:data</name>
+    <doc>XEP-0004: Data Forms</doc>
+  </ns>
+  <ns>
+    <name>jabber:x:encrypted</name>
+    <doc>XEP-0027: Current OpenPGP Usage</doc>
+  </ns>
+  <ns>
+    <name>jabber:x:oob</name>
+    <doc>XEP-0066: Out of Band Data</doc>
+  </ns>
+  <ns>
+    <name>jabber:x:signed</name>
+    <doc>XEP-0027: Current OpenPGP Usage</doc>
+  </ns>
+  <ns>
+    <name>roster:delimiter</name>
+    <doc>XEP-0083: Nested Roster Groups</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-bind</name>
+    <doc>RFC 3920: XMPP Core</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-e2e</name>
+    <doc>RFC 3923: XMPP E2E</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-sasl</name>
+    <doc>RFC 3920: XMPP Core</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-session</name>
+    <doc>RFC 3921: XMPP IM</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-stanzas</name>
+    <doc>RFC 3920: XMPP Core</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-streams</name>
+    <doc>RFC 3920: XMPP Core</doc>
+  </ns>
+  <ns>
+    <name>urn:ietf:params:xml:ns:xmpp-tls</name>
+    <doc>RFC 3920: XMPP Core</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:archive</name>
+    <doc>XEP-0136: Message Archiving</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:attention:0</name>
+    <doc>XEP-0224: Attention</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:avatar:data</name>
+    <doc>XEP-0084: User Avatars</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:avatar:metadata</name>
+    <doc>XEP-0084: User Avatars</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:bob</name>
+    <doc>XEP-0231: Bits of Binary</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:captcha</name>
+    <doc>XEP-0158: CAPTCHA Forms</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:delay</name>
+    <doc>XEP-0203: Delayed Delivery</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:errors</name>
+    <doc>XEP-0182: Application-Specific Error Conditions</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:1</name>
+    <doc>XEP-0166: Jingle</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:errors:1</name>
+    <doc>XEP-0166: Jingle</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:apps:rtp:1</name>
+    <doc>XEP-0167: Jingle RTP Sessions</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:apps:rtp:errors:1</name>
+    <doc>XEP-0167: Jingle RTP Sessions</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:apps:rtp:info:1</name>
+    <doc>XEP-0167: Jingle RTP Sessions</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:apps:transports:ice-udp:1</name>
+    <doc>XEP-0176: Jingle ICE-UDP Transport Method</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:jingle:apps:transports:raw-udp:1</name>
+    <doc>XEP-0176: Jingle ICE-UDP Transport Method</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:langtrans</name>
+    <doc>XEP-0171: Language Translation</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:langtrans#items</name>
+    <doc>XEP-0171: Language Translation</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:media-element</name>
+    <doc>XEP-0221: Data Forms Media Element</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:pie</name>
+    <doc>XEP-0227: Portable Import/Export Format for XMPP-IM Servers</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:ping</name>
+    <doc>XEP-0199: XMPP Ping</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:receipts</name>
+    <doc>XEP-0184: Message Receipts</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:sm:2</name>
+    <doc>XEP-0198: Stream Management</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:ssn</name>
+    <doc>XEP-0155: Stanza Session Negotiation</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:time</name>
+    <doc>XEP-0202: Entity Time</doc>
+  </ns>
+  <ns>
+    <name>urn:xmpp:xbosh</name>
+    <doc>XEP-0206: XMPP Over BOSH</doc>
+  </ns>
+  <ns>
+    <name>vcard-temp</name>
+    <doc>XEP-0054: vcard-temp</doc>
+  </ns>
+  <ns>
+    <name>vcard-temp:x:update</name>
+    <doc>XEP-0153: vCard-Based Avatars</doc>
+  </ns>
+</registry>
