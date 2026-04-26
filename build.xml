@@ -14,7 +14,7 @@
         
     <target name="classes">
         <mkdir dir="bin"/>
-        <javac srcdir="src" destdir="bin" includeantruntime="false">
+        <javac srcdir="src" destdir="bin" includeantruntime="false" release="17">
             <classpath refid="xmpptrace.classpath"/>
         </javac>
         <copy file="etc/namespaces.xml" 
